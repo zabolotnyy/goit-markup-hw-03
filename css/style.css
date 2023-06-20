@@ -40,7 +40,7 @@ button {
 }
 .link {
     text-decoration: none;
-}
+    }
 .adresslink {
     font-style: normal;
 }
@@ -63,8 +63,7 @@ button {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;   
     
      }
 /*Header*/
@@ -367,7 +366,8 @@ button {
     color: var(--footer);
 }
 .footer-link {
-    display: inline-block;
-    margin-bottom: 16px;
+     margin-bottom: 16px;
 }
-
+.footer-link{
+      display: inline-block;;
+}
