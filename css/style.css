@@ -75,6 +75,8 @@ button {
     text-transform: uppercase;
     color: var(--web-button-color);
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 .linkcolor {
     color: var(--background-color);
@@ -111,8 +113,6 @@ button {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-nav {
     display: flex;
@@ -125,6 +125,8 @@ button {
 .adress-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 /*header-container Finish*/
 /*HERO-MAIN PAGE*/
