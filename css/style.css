@@ -1,0 +1,187 @@
+:root {
+ --color-white:#FFFFFF;
+ --background-color:#2E2F42;
+ --web-button-color:#4D5AE5;
+ --focus-color:#404BBF;
+ --text-color:#434455;
+ --footer:#F4F4FD;
+ --buttons-color:#E7E9FC;
+}
+
+body {
+    background-color: var(--color-white);
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+}
+.link {
+    text-decoration: none;
+}
+.logo  {
+    font-family: "Raleway",sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--web-button-color);
+    }
+.linkcolor {
+    color: var(--background-color);
+}
+    
+
+.footer-logo {
+    color:var(--footer);
+}
+.link-footer {
+    color: var(--color-white);
+    text-decoration: none;
+    }
+.list {
+    list-style: none;
+}
+
+.list-type {
+    color: var(--background-color);
+    font-size:16px;
+    font-weight:500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.list-type:hover,
+.list-type:focus {
+    color: var(--focus-color);
+}
+
+.adresslink {
+    font-style: normal;
+}
+
+.adress {
+    color: var(--text-color);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.adress:hover,
+.adress:focus {
+    color: var(--focus-color);
+}
+
+.hero {
+    background-color: var(--background-color);
+}
+.herotext {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+.herobutton {
+    cursor: pointer;
+    background: var(--web-button-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+.herobutton:hover,
+.herobutton:focus {
+    background-color:var(--focus-color);
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+}
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.title-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.title-text:hover,
+.title-text:focus {
+    color: var(--focus-color);
+}
+.we-make {
+    color: var(--background-color);
+    font-size:  36px;
+    text-align: center;
+    line-height: 1.11;
+    font-weight:: 700;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.sectionthree {
+    background-color: var(--footer);
+}
+.staff {
+    background-color: var(--color-white);
+}
+
+.team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+}
+.rank {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.btn-first {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--web-button-color);
+    background-color: var(--footer);
+    cursor: pointer;
+}
+.btn-first:hover,
+.btn-first:focus {
+    color: #FFFFFF;
+    background-color: var(--focus-color);
+}
+
+.footer {
+    background-color: var(--background-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer);
+}
