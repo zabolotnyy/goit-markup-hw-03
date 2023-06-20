@@ -191,7 +191,6 @@ button {
 }
 .section-project {
     margin-top: 120px;
-    padding-top: 28px;
 }
 .project-images {
     display:flex;
@@ -236,7 +235,6 @@ button {
     padding: 120px 0
 }
 .container-workers {
-    padding-top: 120px;
     padding-bottom: 0px;
 }
 .section-workers {
@@ -306,7 +304,6 @@ button {
     flex-direction: row;
     gap:24px;
     margin-bottom: 72px;
-    padding-top: 96px;
     padding-right: auto;
     padding-left: auto;
        }
@@ -317,8 +314,7 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
-}
+    }
 .portfolio-image-name {
     display: flex;
     padding: 0;
