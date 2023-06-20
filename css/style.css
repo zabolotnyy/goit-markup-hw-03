@@ -21,6 +21,8 @@ h1,h2,h3,h4,h5,h6 ,p {
 }
 ul,li {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -50,6 +52,15 @@ button {
     overflow: hidden;
 }
 /*Reset Finish*/
+/*Container*/
+.container {
+     width: 1188px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 15px;
+     padding-right: 15px;
+     outline: 2px solid red;
+}
 /*Header*/
 .logo  {
     font-family: "Raleway",sans-serif;
