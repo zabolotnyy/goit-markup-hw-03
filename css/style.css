@@ -60,10 +60,12 @@ button {
 /*Reset Finish*/
 /*Container*/
 .container {
-     width: 1158px;
-     margin-left: auto;
-     margin-right: auto;
-     padding: 0 15px 0 15px;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: none;
      }
 /*Header*/
 .logo  {
@@ -116,10 +118,10 @@ button {
 }
 .header-nav {
     display: flex;
+    align-items: center;
 }
 .nav-list {
     display: flex;
-    align-items: center;
     gap:40px;
   }
 .adress-list {
@@ -130,7 +132,7 @@ button {
 /*HERO-MAIN PAGE*/
 .hero {
     background-color: var(--background-color);
-    padding: 188px 0
+    padding: 188px 0 ;
 }
 .herotext {
     font-weight: 700;
@@ -140,7 +142,7 @@ button {
     letter-spacing: 0.02em;
     color: var(--color-white);
     display: block;
-    max-width: 496px
+    max-width: 496px;
     margin: 0;
     border: 0;
 }
@@ -152,7 +154,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
-    min-width: 169px
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -172,7 +174,8 @@ button {
 /*HERO MAIN PAGE FINISH*/
 /*MP Section Features*/
 .festures-section {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .features-container {
     display:flex;
@@ -316,13 +319,19 @@ button {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px
+    row-gap: 48px;
     margin-bottom: 120px;
 }
 .portfolio-image-name {
     display: flex;
     padding: 0;
     margin-bottom: 48px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.portfolio-image-name {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
     border-bottom: 1px solid #E7E9FC;
 }
 .portfolio-image-text {
@@ -352,6 +361,9 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+.footer-logo {
+    color: var(--footer);
+}
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -359,8 +371,8 @@ button {
     letter-spacing: 0.02em;
     color: var(--footer);
 }
-.footer-logo {
-    color: var(--footer);
+.footer-link {
     display: inline-block;
     margin-bottom: 16px;
 }
+
