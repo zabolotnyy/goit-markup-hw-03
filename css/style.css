@@ -32,6 +32,9 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
+header {
+    border-bottom: 1px solid #E7E9FC;
+}
 .link {
     text-decoration: none;
 }
@@ -59,8 +62,7 @@ button {
      margin-right: auto;
      padding-left: 15px;
      padding-right: 15px;
-     outline: 2px solid red;
-}
+     }
 /*Header*/
 .logo  {
     font-family: "Raleway",sans-serif;
@@ -175,7 +177,6 @@ button {
 .feature-list {
     width:264px;
 }
-
 .section-project {
     margin-top: 120px;
     padding-top: 28px;
@@ -187,9 +188,7 @@ button {
     padding-bottom: 0px;
     margin-bottom: 120px;
     justify-content: space-between;
-    
 }
-
 /*TEXT AND TITLE FEATURES*/
 .title-name {
     font-weight: 500;
@@ -217,12 +216,25 @@ button {
 /*MP Team*/
 .section-team {
     background-color: var(--footer);
-    padding: 0px;
+    padding:0px;
     margin: 0px;
+}
+.container-workers {
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+.section-workers {
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 120px;
+    justify-content: space-between;
 }
 .staff {
     background-color: var(--color-white);
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
 .team {
     font-weight: 500;
     font-size: 20px;
@@ -237,6 +249,13 @@ button {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
+.position {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    align-items: center;
+    }
 /*Team Fnish*/
 /*Portfolio Btn*/
 .btn-first {
@@ -247,13 +266,44 @@ button {
     letter-spacing: 0.04em;
     color: var(--web-button-color);
     background-color: var(--footer);
+    
     }
 .btn-first:hover,
 .btn-first:focus {
     color: #FFFFFF;
     background-color: var(--focus-color);
 }
+.portfolio-btns {
+    display:flex;
+    flex-direction: row;
+    gap:24px;
+    margin: 0px;
+    padding-top: 96px;
+    padding-right: 264px;
+    padding-bottom: 72px;
+    padding-left: 264px;
+       }
 /*Portfolio Btn Finish*/
+/*porfolio-images*/
+.porfolio-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+.portfolio-image-name {
+    display: flex;
+    padding: 0;
+    margin-bottom: 48px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.portfolio-image-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0;
+}
 /*Footer*/
 .footer {
     background-color: var(--background-color);
@@ -265,6 +315,17 @@ button {
     margin:0px;
     padding: 0px;
    }
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right:849px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .footer-text {
     font-weight: 400;
     font-size: 16px;
