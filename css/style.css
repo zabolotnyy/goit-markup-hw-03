@@ -173,7 +173,7 @@ button {
 }
 /*HERO MAIN PAGE FINISH*/
 /*MP Section Features*/
-.festures-section {
+.features-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -203,7 +203,7 @@ button {
     justify-content: space-between;
 }
 .technic {
-
+ width: calc((100% - 48px) / 3)
 }
 /*TEXT AND TITLE FEATURES*/
 .title-name {
