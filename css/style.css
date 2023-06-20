@@ -63,7 +63,7 @@ button {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px 0 15px;   
+    padding: 0 15px 0 15px;  
     }
 /*Header*/
 .logo  {
@@ -280,7 +280,6 @@ button {
 /*main-section*/
 .main-section {
     padding: 96px 0 120px 0;
-
 }
 /*Portfolio Btn*/
 .btn-first {
@@ -294,8 +293,7 @@ button {
     padding: 12px 24px;
     border: 1px solid var(--buttons-color);
     border-radius: 4px;
-    
-    }
+        }
 .btn-first:hover,
 .btn-first:focus {
     border: 1px solid transparent;
@@ -349,8 +347,6 @@ button {
     display: inline-block;
 }
 .container-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
     padding-right:849px;
     padding-left: 15px;
     margin-left: auto;
