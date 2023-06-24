@@ -188,12 +188,7 @@ button {
 .feature-list {
     width:264px;
 }
-.projects {
-    padding-bottom: 120px;
-}
-.section-project {
-    margin-top: 120px;
-}
+
 .project-images {
     display:flex;
     gap:24px;
@@ -228,8 +223,7 @@ button {
     font-weight:: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
-}
+    }
 /*TEXT AND TITLE FEATURES Finish*/
 /*MP Team*/
 .section-team {
@@ -239,10 +233,9 @@ button {
 .container-workers {
     padding-bottom: 0px;
 }
-.section-workers {
+.list-workers {
     display: flex;
     padding-top: 72px;
-    padding-bottom: 120px;
     justify-content: space-between;
     gap: 24px;
 }
@@ -341,11 +334,9 @@ button {
     padding: 100px 0;
    }
 .footer-link {
-    margin-bottom: 16px;
     display: inline-block;
 }
 .container-footer {
-    padding-right:849px;
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -354,6 +345,7 @@ button {
     color: var(--footer);
 }
 .footer-text {
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
